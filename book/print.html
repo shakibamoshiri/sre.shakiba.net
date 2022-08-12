@@ -147,6 +147,30 @@ No, but it all started from that, lets see this video <a href="https://www.youtu
 <p><img src="https://img.youtube.com/vi/1NF6N2RwVoc/0.jpg" alt="SRE" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="devops-versus-sre"><a class="header" href="#devops-versus-sre">DevOps versus SRE</a></h1>
 <h2 id="what-is-or-are-differences-between-devops-and-sre"><a class="header" href="#what-is-or-are-differences-between-devops-and-sre">What is or are differences between DevOps and SRE?</a></h2>
+<p>First</p>
+<ul>
+<li>DevOps is community approach to help software operation be <strong>agile</strong></li>
+<li>SRE is Google approach to do so</li>
+</ul>
+<p>Second</p>
+<ul>
+<li>DevOps' focus is more on concepts and specially <strong>culture</strong> and it is one of DevOps pillars (CAMS Model)
+<ul>
+<li><strong>C</strong> Culture</li>
+<li><strong>A</strong> Automation</li>
+<li><strong>M</strong> Measure and Metrics</li>
+<li><strong>S</strong> Sharing (= Knowledge Sharing)</li>
+</ul>
+</li>
+<li>SRE's focus is more and practicality of being Agile in operation.</li>
+</ul>
+<h2 id="agile-versus-scrum--xp--kanban"><a class="header" href="#agile-versus-scrum--xp--kanban">Agile versus Scrum / XP / Kanban</a></h2>
+<p>As an analogy you can think of DevOps as set of rules and manifesto while SRE is an implementation of DevOps. And this is the reason Google says:</p>
+<blockquote>
+<p>class SRE implements DevOps</p>
+</blockquote>
+<p>See this <a href="https://www.youtube.com/watch?v=uTEL8Ff1Zvk">What's the Difference Between DevOps and SRE?</a> for more info.</p>
+<p><img src="https://img.youtube.com/vi/uTEL8Ff1Zvk/0.jpg" alt="image of video" /></p>
 
                     </main>
 
@@ -162,22 +186,6 @@ No, but it all started from that, lets see this video <a href="https://www.youtu
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
